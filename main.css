@@ -1,0 +1,24 @@
+body {
+    background: #353b48;
+    color: white;
+    font-family: arial;
+  }
+  
+  #plot {
+    width:100%;
+    height:100%;
+  }
+  
+  #wrapper {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 200px 10fr;
+  }
+  
+  #item_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
