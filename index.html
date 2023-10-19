@@ -1,31 +1,28 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <title>Trench Warfare Simulation</title>
-  <script src="main.js"></script>
-  <link href="main.css" rel="stylesheet">
-</head>
-<body>
-  <div id='wrapper'>
-    
-    <div id='item_1'>
-      <h3>initial cooperation</h3>
-      <input id='slider_1' type='range' min=0 max=1 step='0.1'></input><span id='span_1'></span>
-  <h3>retaliation factor</h3>
-  <input id='slider_2' type='range' min=0 max=1 step='0.1'></input><span id='span_2'></span>
-  <h3>damping rate</h3>
-<input id='slider_3' type='range' min=0 max=1 step='0.1'></input><span id='span_3'></span>
-  <h3># iterations</h3>
-<input id='slider_4' type='range' min=0 max=10 step='1'></input><span id='span_4'></span>
-    </div>
-<div id='item_2'>
-      <div id="plot"></div>
-    </div>
-  </div>
- 
-</body>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+      <title>Trench Warfare Simulation</title>
+      <script src="main.js"></script>
+      <link href="main.css" rel="stylesheet">
+   </head>
+   <body>
+      <div id='wrapper'>
+         <div id='item_1'>
+            <h3>initial cooperation</h3>
+            <input id='slider_1' type='range' min=0 max=1 step='0.01'></input><span id='span_1'></span>
+            <h3>retaliation factor</h3>
+            <input id='slider_2' type='range' min=0 max=1 step='0.01'></input><span id='span_2'></span>
+            <h3>damping rate</h3>
+            <input id='slider_3' type='range' min=0 max=1 step='0.01'></input><span id='span_3'></span>
+            <h3># iterations</h3>
+            <input id='slider_4' type='range' min=0 max=20 step='1'></input><span id='span_4'></span>
+         </div>
+         <div id='item_2'>
+            <div id="plot"></div>
+         </div>
+      </div>
+   </body>
 </html>
